@@ -1,0 +1,88 @@
+.upper{
+    height: 118px;
+    width: 100%;    
+}
+.main{
+    height: 118px;
+    width: 88%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 35px 40px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-top: 0px;
+}
+.header{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 130px;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+.logo>img{
+    max-height: 55%;
+}
+.logo>img:nth-child(2){
+    max-height: 35%;
+}
+.content{
+    height: 100%;
+    width: 560px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+#features{
+    /* border: 1px solid magenta; */
+    padding: 14px;
+    display: flex;
+    align-items: center;
+}
+#features>p{
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    margin: 0px 10px;
+    padding: 0px 4px;
+}
+.account{
+    height: 100%;
+    width: 250px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    /* border: 1px solid black; */
+    width: 52px;
+    display: flex;
+    align-items: center;
+}
+.login>p{
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #2C4BFF;
+}
+.getstarted{
+    width: 180px;
+    /* border: 1px solid black; */
+}
+.getstarted>button{
+    height: 100%;
+    width: 100%;
+    background-color: #2C4BFF;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
