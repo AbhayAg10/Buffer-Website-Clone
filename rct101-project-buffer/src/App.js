@@ -3,13 +3,18 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import HomePage from './Components/HomePage/HomePage';
+import Signup from './Components/Signup/Signup';
+import Login from './Components/Login/Login';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <HomePage />
-      <Footer />
+      <Footer /> */}
+      {/* <Signup /> */}
+      <Login />
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
