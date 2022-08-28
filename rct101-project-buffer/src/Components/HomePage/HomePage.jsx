@@ -1,8 +1,11 @@
+import Footer from "../Footer/Footer"
+import Navbar from "../Navbar/Navbar"
 import styles from "./HomePage.module.css"
 
 export default function HomePage(){
     return (
         <div className={styles.container}>
+            <Navbar />
             <div className={styles.first}>
                 <div className={styles.getstarted}>
                     <div className={styles.getstartedcontent}>
@@ -273,6 +276,7 @@ export default function HomePage(){
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

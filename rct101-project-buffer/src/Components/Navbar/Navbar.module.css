@@ -1,6 +1,8 @@
 .upper{
     height: 118px;
-    width: 100%;    
+    width: 100%;
+    /* border: 1px solid black;    */
+    /* position: absolute; */
 }
 .main{
     height: 118px;
@@ -11,6 +13,10 @@
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     margin-top: 0px;
+    /* border: 1px solid red; */
+    /* top: 0;
+    position: sticky;
+    z-index: 1000;  */
 }
 .header{
     height: 100%;
@@ -26,6 +32,7 @@
     display: flex;
     gap: 9px;
     align-items: center;
+    cursor: pointer;
 }
 .logo>img{
     max-height: 55%;
@@ -52,6 +59,7 @@
     font-weight: 400;
     margin: 0px 10px;
     padding: 0px 4px;
+    cursor: pointer;
 }
 .account{
     height: 100%;
@@ -66,17 +74,18 @@
     display: flex;
     align-items: center;
 }
-.login>p{
+#loginbtn{
     font-size: 18px;
     font-family: Roboto, sans-serif;
     font-weight: 400;
     color: #2C4BFF;
+    cursor: pointer;
 }
 .getstarted{
     width: 180px;
     /* border: 1px solid black; */
 }
-.getstarted>button{
+#signupbtn{
     height: 100%;
     width: 100%;
     background-color: #2C4BFF;

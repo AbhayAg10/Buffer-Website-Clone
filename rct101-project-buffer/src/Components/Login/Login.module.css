@@ -100,6 +100,13 @@
     font-family: "Roboto",sans-serif;
     cursor: pointer;
 }
+#create{
+    color: #636363;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+}
 .image{
     width: 67%;
 }

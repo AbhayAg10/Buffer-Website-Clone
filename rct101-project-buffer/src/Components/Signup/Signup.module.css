@@ -11,7 +11,7 @@
     margin: 16px 0px;
     padding: 0px 56px;
 }
-.logo>img{
+#logo{
     margin-top: 38px;
     max-width: 112px;
 }
@@ -105,6 +105,13 @@
     font-size: 14px;
     font-family: "Roboto",sans-serif;
     cursor: pointer;
+}
+#haveaccount{
+    cursor: pointer;
+    color: #636363;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
 }
 .image{
     width: 35%;

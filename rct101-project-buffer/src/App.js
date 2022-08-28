@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 import HomePage from './Components/HomePage/HomePage';
 import Signup from './Components/Signup/Signup';
 import Login from './Components/Login/Login';
+import AllRoutes from './Routes/AllRoutes';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <HomePage />
       <Footer /> */}
       {/* <Signup /> */}
-      <Login />
+      <AllRoutes />
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
