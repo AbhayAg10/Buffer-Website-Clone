@@ -1,0 +1,159 @@
+.container{
+    display: flex;
+    height: 760px;
+}
+.content{
+    width: 65%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+.logo{
+    margin: 16px 0px;
+    padding: 0px 56px;
+}
+#logo{
+    margin-top: 38px;
+    max-width: 112px;
+}
+.forms{
+    margin: 150px 0px;
+    padding: 0px 56px;
+    height: 435px;
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forms>h1{
+    margin-bottom: 32px;
+    color: #3D3D3D;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 44px;
+    font-size: 32px;
+    font-family: "Roboto",sans-serif;
+}
+.emailbox{
+    height: 84px;
+    width: 480px;
+    margin-bottom: 8px;
+    /* border: 1px solid green; */
+}
+.emailbox>label{
+    display: flex;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3D3D3D;
+    text-align: left;
+    margin-bottom: 8px;
+    font-family: "Roboto",sans-serif;
+}
+.emailbox>input{
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px; 
+    border: 1px solid #B8B8B8;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    box-sizing: border-box;
+    transition-property: border-width,border-color,box-shadow;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    box-shadow: 2px 2px 0 2px transparent;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.forms>button{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin: 8px 0px;
+    height: 48px;
+    width: 480px;
+    background-color: #E0E0E0;
+    color: #636363;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    border-radius: 4px;
+    font-family: 'Roboto',sans-serif;
+    border: none;
+}
+.belowdiv{
+    margin: 8px 0px;
+    height: 16.8px;
+    width: 480px;
+    display: flex;
+    gap: 100px;
+}
+.belowdiv>p{
+    color: #636363;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+}
+.belowdiv>p>span{
+    color: #2c4bff;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+}
+#haveaccount{
+    cursor: pointer;
+    color: #636363;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+}
+.image{
+    width: 35%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    background-image: url("https://static.buffer.com/login/public/img/signup-bkg-publish.png");
+}
+.image>p{
+    line-height: 32px;
+    font-size: 24px;
+    margin: 180px 105px 16px 105px;
+    letter-spacing: -0.75px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.person{
+    height: 168px;
+    width: 300px;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.person>img{
+    max-height: 80px;
+    max-width: 80px;
+    border-radius: 50%;
+    margin: 8px 0px;
+}   
+.person>p{
+    letter-spacing: -0.75px;
+    line-height: 16px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
