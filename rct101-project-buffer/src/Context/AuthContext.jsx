@@ -7,20 +7,19 @@ export default function AuthContextProvider({ children }) {
     isAuth: false,
     token: null
   });
+  function handleLogout() {
+    setState({
+      ...state,
+      isAuth: false,
+      token: null
+    });
+  }
 
   function handleLogin(token) {
     setState({
       ...state,
       isAuth: true,
       token: token
-    });
-  }
-
-  function handleLogout() {
-    setState({
-      ...state,
-      isAuth: false,
-      token: null
     });
   }
   return (
